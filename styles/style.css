@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #e55473;
+    padding: 20px 40px;
+    border: none;
+}
+
+/* Header */
+header {
+    background: rgba(229, 84, 115, 0.1);
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-text * {
+    margin-bottom: 32px;
+}
+
+.banner .banner-text h2 {
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 700px;
+}
+
+.banner .banner-text .description {
+    max-width: 620px;
+}
+
+.banner .banner-text .btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.banner .banner-img img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.banner .banner-img{
+    margin-top: 50px;
+}
